@@ -113,5 +113,24 @@
 @include media-breakpoint-down(xs) {
   .masthead{
       padding-top: calc(0rem + 104px);
+
+      .masthead-heading{
+        font-size: 2rem;
+      }
+    }
+    .portfolio {
+      .portfolio-item{
+        .portfolio-item-caption{
+          &:hover{
+            opacity: 0;
+          }
+        }
+      }
     }
   }
+
+.education-section{
+  .sub-title{
+    font-size: .800rem;
+  }
+}

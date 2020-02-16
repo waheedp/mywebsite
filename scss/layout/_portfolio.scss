@@ -98,3 +98,20 @@
     margin-bottom: 0;
 }
 
+.text-gray{
+  color: #999;
+}
+
+.logo{
+  font-family: 'Shadows Into Light', cursive;
+
+  .lname{
+    color: #999a9a;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .masthead{
+      padding-top: calc(2rem + 104px);
+    }
+  }

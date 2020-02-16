@@ -9857,7 +9857,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (max-width: 575.98px) {
   .masthead {
-    padding-top: calc(2rem + 104px);
+    padding-top: calc(0rem + 104px);
   }
 }
 
